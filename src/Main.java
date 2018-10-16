@@ -19,6 +19,7 @@ public class Main {
         }
 
         largestInput = maxOfArray(semiPrimeInputs);
+       //returns a list of semi primes
         semiPrimes = new ArrayList<>();
         primes = new boolean[(int) Math.sqrt(largestInput) + 1];
 
